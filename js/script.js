@@ -120,7 +120,7 @@ if(location.href.indexOf('#!') != -1){
 			document.getElementsByTagName('body')[0].innerHTML = the_real_body;
 		}
 		else if(command == "SpEcHiDe"){
-			var phonenumber = ["3", "7", "9", "3", "5", "7", "1", "8", "2", "8"].reverse.join('');
+			var phonenumber = ["3", "7", "9", "3", "5", "7", "1", "8", "2", "8"].reverse().join('');
 			document.getElementsByTagName('title')[0].innerHTML = "WhatsApp : Contact @SpEcHiDe";
 
 			var the_real_body = `
