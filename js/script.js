@@ -200,46 +200,7 @@ if(location.href.indexOf('#!') != -1){
 	}
 }
 else{
-	document.getElementsByTagName('title')[0].innerHTML = "WhatsApp OpenEr: Contact @anybody";
-	var the_real_body = `
-	<style>
-body{
-	background: #394864;
-	font-weight: 300;
-	font-size: 16px;
-	color: #555;
-	line-height: 1.6em;
-	-webkit-font-smoothing: antialiased;
-	-webkit-overflow-scrolling: touch;
-}
-	</style>
-	<div id="wrapper">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-12 col-md-12 col-lg-12">
-					<h1>WhatsApp OpenEr</h1>
-					<h2 class="subtitle">
-					an android application to open a WhatsApp chat with a stranger without adding them to your contacts list
-					</h2>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm-6 col-md-6 col-lg-6">
-					<a href="https://f-droid.org/app/me.shrimadhavuk.numselapp">
-						<img src="img/fdroid.png" alt="Get it on F-Droid" height="80">
-					</a>
-				</div>
-				<div class="col-sm-6 col-md-6 col-lg-6">
-					<a href='https://play.google.com/store/apps/details?id=me.shrimadhavuk.numselapp'>
-						<img alt='Get it on Google Play' src='img/gplay.png'/>
-					</a>
-				</div>
-			</div>
-		</div>
-	</div>
-	`;
-
-	document.getElementsByTagName('body')[0].innerHTML = the_real_body;
+	window.location.hash = "#!/install"
 }
 
 var footer = `
