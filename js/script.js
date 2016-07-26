@@ -200,7 +200,7 @@ if(location.href.indexOf('#!') != -1){
 	}
 }
 else{
-	window.location.href = window.location.host + "/#!/install"
+	window.location.href = window.location.protocol + "://" + window.location.host + "/#!/install"
 }
 
 var footer = `
